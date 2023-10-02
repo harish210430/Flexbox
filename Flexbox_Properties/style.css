@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* # Our Style */
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    padding: 48px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.box-1{background-color: rgb(118, 116, 47);}
+.box-2{background-color: rgb(190, 74, 188);}
+.box-3{background-color: darkcyan;}
+.box-4{background-color: rgb(183, 52, 52);}
+.box-5{background-color: greenyellow;}
+.box-6{background-color: orange;}
+.box-7{background-color: indianred;}
+.box-8{background-color: rebeccapurple;}
+.box-9{background-color: palegoldenrod;}
+
+/* Container Flexbox Properties */
+
+.container{
+    border: 5px solid black;
+
+    /* height: 100vh; Justify-content */
+
+    /* Display Accepts Two Values: flex & Inline-flex */
+    display: flex; 
+    /* Direction has two Axis: Main Axis & Cross Axis, And Accepts four values: row/column/row-reverse/column-reverse */
+    /* flex-direction: row;    row is the Bydefault direction called main Axis. */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+
+    /* Now Our Main Axis in vertical direction, Justify-content works only in Main Axis. 
+    flex-direction: column;
+    justify-content: flex-end; align the items towards the End Point. 
+    justify-content: space-evenly; */
+
+    /* Align-Items Works  on Cross Axis Only, if we have Any Space in Cross Axis. */
+    /* align-items: flex-end; */
+    height: 100vh;
+    /* flex-direction: column; */
+
+    /* Align-content also works on Cross Axis, It works only If We have More than one row in flex-container.
+    It is similar to Justify-content Property. */
+    align-content: center;
+    flex-wrap: wrap;
+}
+/* .box{
+    width: 300px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box-1{
+    font-size: 75px;
+}
+.box-4{
+    font-size: 30px;
+}
+.box-7{
+    font-size: 50px;
+}
+.box-5{
+    font-size: 58px;
+}
+.box-9{
+    font-size: 20px;
+} */
