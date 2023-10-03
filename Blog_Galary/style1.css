@@ -101,15 +101,16 @@ h2,h3,h4{
 }
 .article-heading{
 	font-size: 28px;
-	font-weight: 600;
-	margin-bottom: 10px;
+	font-weight: bolder;
+	margin-bottom: 14px;
+	color: rgb(26, 26, 87);
 }
 .galary-heading{
 	text-align: center;
 	font-size: 36px;
 	font-weight: bolder;
-	color: rgb(15, 15, 92);
-	padding: 20px 0;
+	color: rgb(26, 26, 87);
+	margin-bottom: 20px;
 }
 .article-text{
 	font-size: 17px;
@@ -126,6 +127,8 @@ h2,h3,h4{
 	width: 100%;
 	height: 300px;
 	object-fit: cover;
+	border: 3px solid #22396a;
+	border-radius: 7px;
 }
 
 /* Galary */
@@ -156,14 +159,20 @@ h2,h3,h4{
 	color: rgb(51, 83, 163);
 	margin-left: 18px;
 }
+
+/* Top Btn */
 .top-btn{
-	width: 47px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
 	background-color: orangered;
 	color: rgb(6, 228, 6);
 	border-radius: 50%;
 	padding: 10px;
-	text-align: center;
-	font-size: large;
+	text-decoration: none;
+	font-size: 30px;
 	position: fixed;
 	right: 50px;
 	bottom: 40px;
